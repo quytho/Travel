@@ -1,0 +1,43 @@
+body {
+  line-height: 1;
+  font-family: $font;
+  color: $gray;
+  font-weight: 600;
+  background-color: white;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container-fluid {
+  max-width: 1314px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1163px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.button {
+  display: inline-block;
+  padding: 7px 17px;
+  border-radius: 5px;
+  font-family: $font;
+  line-height: calc(21 / 16);
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 700;
+  color: $primary-color;
+  &--primary {
+    background-color: $primary-color;
+    color: $white;
+  }
+  &--book {
+    border-radius: 0 0 20px 20px;
+    padding: 15px 71px;
+  }
+}

@@ -1,0 +1,122 @@
+.tour {
+  margin-bottom: 90px;
+  &-main {
+    margin: 0 auto;
+  }
+  &-heading {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: calc(57 / 42);
+    color: $black;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &-title {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(22 / 16);
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 44px 40px;
+    margin-bottom: 78px;
+  }
+  &-button {
+    // transform: translateX(50%);
+    max-width: 240px;
+    padding: 17px 15px 17px 100px;
+    text-align: center;
+    display: inline-block;
+    transform: translateX(460px);
+  }
+  &-item {
+    background-color: $white;
+    box-shadow: 0px 4px 45px -15px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    max-width: 261px;
+    padding: 18px 20px 22px;
+    transition: all 0.2s linear;
+    position: relative;
+    &:hover {
+      transform: scale(calc(289 / 261));
+      border-radius: 25px 0 0;
+      // ::after {
+      //   width: 289px;
+      //   content: "Book Trip Now";
+      //   position: absolute;
+      //   bottom: 0;
+      //   left: 0;
+      //   background-color: $primary-color;
+      //   padding: 15px 71px;
+      // }
+    }
+  }
+  &-image {
+    width: 220px;
+    height: 165.36px;
+    margin-bottom: 18px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.2));
+      border-radius: 10px;
+    }
+  }
+  &-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(25 / 18);
+    color: $black;
+    margin-bottom: 4px;
+  }
+  &-desc {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: calc(19 / 14);
+    margin-bottom: 40px;
+  }
+  &-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-location,
+  &-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-location {
+    img {
+      width: 16px;
+      height: 16px;
+    }
+    object-fit: cover;
+  }
+  &-place {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(22 / 16);
+  }
+  &-text {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: calc(14 / 10);
+
+    strong {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: calc(22 / 16);
+    }
+  }
+}
+// @media screen and (max-width: 1439px) {
+//   .tour-list {
+//     grid-template-columns: repeat(3, 1fr);
+//   }
+// }

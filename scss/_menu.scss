@@ -1,0 +1,26 @@
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 196px;
+  &-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 75px;
+  }
+  &-sign {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-item {
+    color: $gray;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: calc(25 / 18);
+  }
+  &-link {
+    color: inherit;
+  }
+}

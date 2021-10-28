@@ -1,0 +1,44 @@
+.choose {
+  margin-bottom: 134px;
+  &-main {
+    padding-left: calc(233px - 138px);
+    padding-right: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 0 79px;
+  }
+  &-image {
+    position: relative;
+    width: 385px;
+    height: 417px;
+    background-color: $bluer-light;
+    border-radius: 45px;
+    img {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+  &-content {
+    max-width: 462px;
+  }
+  &-heading {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: calc(57.29 / 42);
+    color: $black;
+    margin-bottom: 45px;
+    span {
+      color: $primary-color;
+    }
+  }
+  &-desc {
+    display: inline-block;
+    max-width: 429px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: calc(33 / 24);
+  }
+}
