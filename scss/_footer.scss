@@ -72,3 +72,18 @@
     margin-bottom: 14px;
   }
 }
+@media screen and (max-width: 1023px) {
+  .footer-main {
+    gap: 0 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer-main {
+    flex-direction: column;
+    gap: 20px 0;
+    justify-content: center;
+  }
+  .footer-column {
+    margin-bottom: 0;
+  }
+}

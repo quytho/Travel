@@ -30,3 +30,10 @@
     line-height: calc(32.47 / 24);
   }
 }
+@media screen and (max-width: 767px) {
+  .popular-item {
+    padding: 3px 10px;
+    font-size: 20px;
+    line-height: calc(32.47 / 20);
+  }
+}

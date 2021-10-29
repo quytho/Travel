@@ -68,3 +68,23 @@
     text-align: center;
   }
 }
+@media screen and (max-width: 1023px) {
+  .category {
+    margin-bottom: 150px;
+  }
+  .category-main {
+    padding: 26px 0 50px 26px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .category {
+    margin-bottom: 50px;
+  }
+  .category-image {
+    width: 60px;
+    height: 100px;
+  }
+  .category-slide {
+    gap: 0 30px;
+  }
+}
