@@ -24,3 +24,24 @@
     color: inherit;
   }
 }
+@media screen and (max-width: 1439px) {
+  .menu {
+    gap: 0 100px;
+  }
+  .menu-list {
+    gap: 0 50px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .menu {
+    gap: 0 50px;
+  }
+  .menu-list {
+    gap: 0 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .menu-list {
+    display: none;
+  }
+}
