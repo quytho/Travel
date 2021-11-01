@@ -108,6 +108,13 @@ body {
 .header-logo span {
   color: #313131;
 }
+.header-user {
+  width: 32px;
+  height: 32px;
+  border-radius: 100rem;
+  background-color: #3075c6;
+  padding: 6px;
+}
 
 .menu {
   display: flex;
@@ -404,17 +411,12 @@ body {
   object-fit: cover;
   border-radius: 10px;
 }
-.category-slide {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0 45px;
-}
 .category-item {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-right: 45px;
 }
 .category-name {
   font-weight: 800;
@@ -447,6 +449,36 @@ body {
     gap: 0 30px;
   }
 }
+.slick-track {
+  display: flex;
+  padding-bottom: 60px;
+}
+
+.slick-arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 100rem;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -130px;
+  transform: translateY(50%);
+  z-index: 10;
+}
+
+.slick-prev {
+  background-color: transparent;
+  right: 84px;
+  border: 1px solid #3075c6;
+}
+
+.slick-next {
+  background-color: #3075c6;
+  border: none;
+  right: 29px;
+}
+
 .choose {
   margin-bottom: 134px;
 }

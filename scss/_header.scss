@@ -15,4 +15,11 @@
       color: $black;
     }
   }
+  &-user {
+    width: 32px;
+    height: 32px;
+    border-radius: 100rem;
+    background-color: $primary-color;
+    padding: 6px;
+  }
 }
