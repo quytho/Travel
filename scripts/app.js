@@ -20,6 +20,7 @@ $(".category-slide").slick({
     },
     {
       breakpoint: 480,
+      draggable: true,
       settings: {
         slidesToShow: 3,
         draggable: true,
